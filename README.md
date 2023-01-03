@@ -7,7 +7,7 @@
 :round_pushpin: 개발 인원 : 2명 <br/>
 :round_pushpin: 담당 역할 : 얼굴 인식(기여도 80%), 서비스 기획 및 방향성 설정(기여도 90%) <br/>
 
-:round_pushpin: [Development environment] <br/>
+[Development environment] <br/>
 :round_pushpin: 언어 - Python 3.6.8, Java 11.0.1 <br/>
 :round_pushpin: DB - FireBase storage <br/>
 :round_pushpin: IDE - Raspberry Pi, Android Studio <br/>
