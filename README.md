@@ -3,11 +3,11 @@
 : 얼굴 인식을 기반한 초상권 침해 방지 시스템 
 
 :round_pushpin: [Programming Language] <br/>
-Python 3.6.8
+Python 3.6.8 <br/>
 JAVA 11.0.1
 
 :round_pushpin: [Development Enviroment] <br/>
-Raspberry Pi
+Raspberry Pi <br/>
 Android Studio
 
 :round_pushpin: [Description] <br/>
