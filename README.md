@@ -16,8 +16,8 @@ Project Overview : 개인 방송 플랫폼의 증가로 인해 실시간 방송�
 2️⃣ 임계값 미만일 경우 일반인으로 인식 후, 초상권 방지를 위해 모자이크 처리 <br/>
 
 ✏️ case1 : Ordinary person <br/>
-![image](https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png)
-✅ 학습자가 아닌 일반인으로 인식 될 경우 모자이크 처리를 함으로써 초상권 보호를 할 수 있다.
+![image](https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png) <br/>
+✅ 학습자가 아닌 일반인으로 인식 될 경우 모자이크 처리를 함으로써 초상권 보호를 할 수 있다. <br/>
 
 ✏️ case2 : learner <br/>
-✅ 자신의 이름이 나오면서 학습자로 인식한다.
+✅ 자신의 이름이 나오면서 학습자로 인식한다. <br/>
