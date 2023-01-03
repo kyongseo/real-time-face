@@ -15,3 +15,6 @@ Project Overview : 개인 방송 플랫폼의 증가로 인해 초상권 침해 
 
 :round_pushpin: 과정
 ![image](https://user-images.githubusercontent.com/102573192/210356161-e78fed26-8a45-40cb-9fe3-fac1acb6b48f.png)
+
+일반인
+![image](https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png)
