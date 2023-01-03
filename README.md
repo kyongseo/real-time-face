@@ -2,10 +2,15 @@
 :book: 졸업 작품 <br/>
 : 얼굴 인식을 기반한 초상권 침해 방지 시스템 <br/>
 
-:round_pushpin: [Development environment]
-언어 - Python 3.6.8, Java 11.0.1 <br/>
-DB - FireBase storage <br/>
-IDE - Raspberry Pi, Android Studio <br/>
+:round_pushpin: 개발 기간 : 2022.09 ~ 2023.02 6개월 <br/> 
+:round_pushpin: 플랫폼 : App <br/>
+:round_pushpin: 개발 인원 : 2명 <br/>
+:round_pushpin: 담당 역할 : 얼굴 인식(기여도 80%), 서비스 기획 및 방향성 설정(기여도 90%) <br/>
+
+:round_pushpin: [Development environment] <br/>
+:round_pushpin: 언어 - Python 3.6.8, Java 11.0.1 <br/>
+:round_pushpin: DB - FireBase storage <br/>
+:round_pushpin: IDE - Raspberry Pi, Android Studio <br/>
 
 :round_pushpin: [Description] <br/>
 Project Overview : 개인 방송 플랫폼의 증가로 인해 실시간 방송을 진행하는 과정에서 지나가는 시민들의 얼굴이 무차별적으로 노출이 되어 초상권을 침해하는 일이 빈번하게 발생하고 국민 청원뿐만 아니라 피해 신고 접수 또한 급격히 늘고 있다. 이와 같은 문제를 해결하기 위해 얼굴 인식을 기반한 초상권 침해 방지 시스템을 제작하기로 하였다. <br/>
