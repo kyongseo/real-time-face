@@ -21,11 +21,11 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 #iniciate id counter
 id = 0
 
-# names related to ids: example ==> Marcelo: id=1,  etc
+# 학습자 이름 출력
 names = ['None', 'kyoungseo']
 
-# Initialize and start realtime video capture
-cam = cv2.VideoCapture(0)
+# 비디오 촬영 
+cam = cv2.VideoCapture(0) # ngnix 서버 송출 시 rtmp://.. 주소
 cam.set(3, 640) # set video widht
 cam.set(4, 480) # set video height
 
@@ -65,13 +65,14 @@ while True:
         
         cv2.rectangle(img, (x,y), (x+w,y+h), (0,255,0), 2)
         id, confidence = recognizer.predict(gray[y:y + h, x:x + w])
-        # Check if confidence is less them 100 ==> "0" is perfect match
         
+        # 학습자일 경우 이름 출력
         if (confidence < 100):
             #id = names[id]
             id = "kyoungseo"
             confidence = "  {0}%".format(round(150 - confidence))
             
+        # 학습자가 아닐 경우 모자이크 처리
         else: 
             id = "unknown"
             mosaic_loc = img[y:y + h, x:x + w]
@@ -87,11 +88,13 @@ while True:
     out.write(img)
     cv2.imshow('camera',img)
     
+    # 종료
     k = cv2.waitKey(10) & 0xff # Press 'ESC' for exiting video
     
     if k == 27:
         break
     
+    # 촬영 종료후 메시지 출력
 print("\n [INFO] Exiting Program and cleanup stuff")
 
 #os.system('MP4Box -add filename test2.mp4')
