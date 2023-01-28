@@ -18,6 +18,8 @@ Project Overview : 개인 방송 플랫폼의 증가로 인해 실시간 방송�
 
 :round_pushpin: [Algorithm] <br/>
 ![image](https://user-images.githubusercontent.com/102573192/210356161-e78fed26-8a45-40cb-9fe3-fac1acb6b48f.png) <br/> 
+![image](https://user-images.githubusercontent.com/102573192/215275548-01bbe2d8-3778-4426-ba26-106ee113a3ea.png) <br/> 
+<br/> 
 1️⃣ 학습자 얼굴 인식 - 총 50장의 학습자 사진 등록 <br/>
 2️⃣ 임계값 미만일 경우 일반인으로 인식 => 초상권 방지를 위해 모자이크 처리 <br/>
 
