@@ -10,8 +10,8 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 #iniciate id counter
 id = 0
 
-# names related to ids: example ==> Marcelo: id=1,  etc
-names = ['None', 'kyoungseo']
+# 학습자 일 경우 names 출력
+names = ['kyoungseo']
 
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
@@ -50,13 +50,12 @@ while True:
             confidence = "  {0}%".format(round(100 - confidence))
             
         else: 
-            id = "unknown"
+            id = "unknown" # => " "
             mosaic_loc = img[y:y + h, x:x + w]
             mosaic_loc = cv2.blur(mosaic_loc, (50,50))
             img_w_mosaic = img
             img_w_mosaic[y:y + h, x:x + w] = mosaic_loc
-            #cv2.blur(mosaic_loc,(50,50))
-            confidence = "  {0}%".format(round(100 - confidence))
+            confidence = "  {0}%".format(round(100 - confidence)) # => " "
         
         cv2.putText(img, str(id), (x+5,y-5), font, 1, (255,255,255), 2)
         cv2.putText(img, str(confidence), (x+5,y+h-5), font, 1, (255,255,0), 1)  
