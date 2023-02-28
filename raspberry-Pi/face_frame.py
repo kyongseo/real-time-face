@@ -25,7 +25,7 @@ def faceDetect():
         
         k = cv2.waitKey(30) & 0xff
         
-        if k == 27: # press 'ESC' to quit
+        if k == 27:
             break
     
     cap.release()
