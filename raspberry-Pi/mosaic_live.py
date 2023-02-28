@@ -7,11 +7,10 @@ cascadePath = "/home/kyoungseo/FacialRecognitionProject/haarcascade_frontalface_
 faceCascade = cv2.CascadeClassifier(cascadePath);
 font = cv2.FONT_HERSHEY_SIMPLEX
 
-#iniciate id counter
 id = 0
 
-# 학습자 일 경우 names 출력
-names = ['kyoungseo']
+# 학습자일 경우 names 출력
+names = ['User']
 
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
@@ -22,6 +21,7 @@ cam.set(4, 480) # set video height
 minW = 0.1*cam.get(3)
 minH = 0.1*cam.get(4)
 
+# mosaic code
 while True:
     ret, img =cam.read()
     
@@ -45,10 +45,12 @@ while True:
         id, confidence = recognizer.predict(gray[y:y + h, x:x + w])
         # Check if confidence is less them 100 ==> "0" is perfect match
         
+        # 학습자일 경우
         if (confidence < 100):
             id = names[id] # => " "
             confidence = "  {0}%".format(round(100 - confidence)) # => " "
             
+        # 학습자가 아닐 경우 모자이크 처리    
         else: 
             id = "unknown" # => " "
             mosaic_loc = img[y:y + h, x:x + w]
@@ -61,13 +63,13 @@ while True:
         cv2.putText(img, str(confidence), (x+5,y+h-5), font, 1, (255,255,0), 1)  
     
     cv2.imshow('camera',img) 
-    k = cv2.waitKey(10) & 0xff # Press 'ESC' for exiting video
-    
+      
+    # 종료
+    k = cv2.waitKey(10) & 0xff 
     if k == 27:
         break
-# Do a bit of cleanup
 
-print("\n [INFO] Exiting Program and cleanup stuff")
+print("\n [INFO] Exiting Program and cleanup stuff") # 종료 메시지
 
 cam.release()
 cv2.destroyAllWindows()
