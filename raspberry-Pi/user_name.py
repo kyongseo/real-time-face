@@ -39,7 +39,7 @@ while True:
     for(x,y,w,h) in faces:
         cv2.rectangle(img, (x,y), (x+w,y+h), (0,255,0), 2)
         id, confidence = recognizer.predict(gray[y:y + h, x:x + w])
-        # Check if confidence is less them 100 ==> "0" is perfect match 
+        
         if (confidence < 100):
             id = names[id]
             confidence = "  {0}%".format(round(100 - confidence))
