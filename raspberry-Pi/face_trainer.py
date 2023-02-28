@@ -1,9 +1,10 @@
+# 학습자 얼굴 학습 시키기
+
 import cv2
 import numpy as np
 from PIL import Image
 import os
 
-# Path for face image database
 path = 'dataset'
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 detector = cv2.CascadeClassifier("/home/kyoungseo/FacialRecognitionProject/haarcascade_frontalface_default.xml");
@@ -30,8 +31,8 @@ print ("\n [INFO] Training faces. It will take a few seconds. Wait ...")
 faces,ids = getImagesAndLabels(path)
 recognizer.train(faces, np.array(ids)) # 총 100장의 데이터 찍기
 
-# Save the model into trainer/trainer.yml
+# trainer/trainer.yml 형식으로 저장 될 것
 
 recognizer.write('trainer/trainer.yml') # recognizer.save() worked on Mac, but not on Pi
-# Print the numer of faces trained and end program
+
 print("\n [INFO] {0} faces trained. Exiting Program".format(len(np.unique(ids))))
