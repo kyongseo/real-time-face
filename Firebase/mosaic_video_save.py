@@ -18,7 +18,6 @@ cascadePath = "/home/kj/face/opencv/data/haarcascades/haarcascade_frontalface_de
 faceCascade = cv2.CascadeClassifier(cascadePath);
 font = cv2.FONT_HERSHEY_SIMPLEX
 
-#iniciate id counter
 id = 0
 
 # 학습자 이름 출력
@@ -31,14 +30,14 @@ cam.set(4, 480) # set video height
 
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 basename = "smr"
-suffix = datetime.datetime.now().strftime("%Y%m%d_%H%M%S") + '.avi'
+suffix = datetime.datetime.now().strftime("%Y%m%d_%H%M%S") + '.avi' # 현재 날짜와 시간
+
+filename = "_".join([basename, suffix])
 
 #basename="exp"
 #suffix = '.avi'
-filename = "_".join([basename, suffix])
     
 out =cv2.VideoWriter(filename, fourcc, 20.0, (640,480))
-
     
 # Define min window size to be recognized as a face
 minW = 0.1*cam.get(3)
@@ -79,7 +78,6 @@ while True:
             mosaic_loc = cv2.blur(mosaic_loc, (50,50))
             img_w_mosaic = img
             img_w_mosaic[y:y + h, x:x + w] = mosaic_loc
-            #cv2.blur(mosaic_loc,(50,50))
             confidence = "  {0}%".format(round(100 - confidence))
         
         cv2.putText(img, str(id), (x+5,y-5), font, 1, (255,255,255), 2)
@@ -96,8 +94,6 @@ while True:
     
     # 촬영 종료후 메시지 출력
 print("\n [INFO] Exiting Program and cleanup stuff")
-
-#os.system('MP4Box -add filename test2.mp4')
 
 cam.release()
 out.release()
