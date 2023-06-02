@@ -32,8 +32,8 @@ Project Overview : 개인 방송 플랫폼의 증가로 인해 실시간 방송�
 ✏️ case2 : learner <br/>
 ✅ 자신의 이름이 나오면서 학습자로 인식한다. <br/>
 ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/236f1b56-5e35-49b3-bdb8-5442970bcfef)
-
+<br/>
+<br/>
 :round_pushpin: [Result] <br/>
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/0f0e04d4-1056-4c51-92be-235edbb46b93) <br/>
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/3804041c-bacb-487a-9235-a4f23880b93f)<br/>
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/0f0e04d4-1056-4c51-92be-235edbb46b93) ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/8a61969c-a64a-4b82-b2d4-380eea682bd0)
 
