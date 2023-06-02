@@ -20,14 +20,20 @@ Project Overview : 개인 방송 플랫폼의 증가로 인해 실시간 방송�
 ![image](https://user-images.githubusercontent.com/102573192/210356161-e78fed26-8a45-40cb-9fe3-fac1acb6b48f.png) <br/> 
 ![image](https://user-images.githubusercontent.com/102573192/215275548-01bbe2d8-3778-4426-ba26-106ee113a3ea.png) <br/> 
 <br/> 
-1️⃣ 학습자 얼굴 인식 - 총 50장의 학습자 사진 등록 <br/>
-2️⃣ 임계값 미만일 경우 일반인으로 인식 => 초상권 방지를 위해 모자이크 처리 <br/>
-
+1️⃣ 카메라로 사람을 인식한다.<br/>
+2️⃣ haar 알고리즘으로 얼굴을 인식한다.  <br/>
+3️⃣ adaboost 알고리즘으로 사전에 학습된 학습자인지 아닌지 구별한다. (임계값 미만일 경우 학습자가 아닌 것으로 판단함) <br/>
+4️⃣ mosaic 기술로 학습자가 아닌 사람은 모자이크 처리를 한다.<br/>
+<br/>
 ✏️ case1 : Ordinary person <br/>
 ![image](https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png) <br/>
 ✅ 학습자가 아닌 일반인으로 인식 될 경우 모자이크 처리를 함으로써 초상권 보호를 할 수 있다. <br/>
 
 ✏️ case2 : learner <br/>
 ✅ 자신의 이름이 나오면서 학습자로 인식한다. <br/>
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/3804041c-bacb-487a-9235-a4f23880b93f)
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/236f1b56-5e35-49b3-bdb8-5442970bcfef)
+
+:round_pushpin: [Result] <br/>
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/0f0e04d4-1056-4c51-92be-235edbb46b93) <br/>
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/3804041c-bacb-487a-9235-a4f23880b93f)<br/>
 
