@@ -20,20 +20,33 @@ Project Overview : 개인 방송 플랫폼의 증가로 인해 실시간 방송�
 ![image](https://user-images.githubusercontent.com/102573192/210356161-e78fed26-8a45-40cb-9fe3-fac1acb6b48f.png) <br/> 
 ![image](https://user-images.githubusercontent.com/102573192/215275548-01bbe2d8-3778-4426-ba26-106ee113a3ea.png) <br/> 
 <br/> 
+
 1️⃣ 카메라로 사람을 인식한다.<br/>
 2️⃣ haar 알고리즘으로 얼굴을 인식한다.  <br/>
 3️⃣ adaboost 알고리즘으로 사전에 학습된 학습자인지 아닌지 구별한다. (임계값 미만일 경우 학습자가 아닌 것으로 판단함) <br/>
 4️⃣ mosaic 기술로 학습자가 아닌 사람은 모자이크 처리를 한다.<br/>
 <br/>
-✏️ case1 : Ordinary person <br/>
+
+:round_pushpin: [Architecture] <br/>
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/07878a69-34e1-4563-9e50-d639467a6f89) <br/>
+1️⃣ 라즈베리파이로 촬영한다. <br/>
+2️⃣ 모자이크 처리를 거쳐 앱으로 보여진다. <br/>
+<br/>
+
+✏️ case1 : 일반인 <br/>
 ![image](https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png) <br/>
 ✅ 학습자가 아닌 일반인으로 인식 될 경우 모자이크 처리를 함으로써 초상권 보호를 할 수 있다. <br/>
+<br/>
 
-✏️ case2 : learner <br/>
+✏️ case2 학습자 <br/>
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/b7258bad-fec2-42dc-9b71-60d96ce24290) <br/>
 ✅ 자신의 이름이 나오면서 학습자로 인식한다. <br/>
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/236f1b56-5e35-49b3-bdb8-5442970bcfef)
 <br/>
-<br/>
-:round_pushpin: [Result] <br/>
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/0f0e04d4-1056-4c51-92be-235edbb46b93) ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/8a61969c-a64a-4b82-b2d4-380eea682bd0)
 
+:round_pushpin: [Result] <br/>
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/9ebc3fc3-4106-4c21-b6c0-16da77fb7979) <br/>
+<br/>
+
+✅ 학습자가 아닌 일반인으로 인식 될 경우 모자이크 처리를 함으로써 초상권 보호를 할 수 있다. <br/>
+✅ 자신의 이름이 나오면서 학습자로 인식한다.<br/>
+✅ 시청자는 모자이크 처리가 된 영상을 볼 수 있다.<br/>
