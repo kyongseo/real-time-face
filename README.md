@@ -3,7 +3,7 @@
 :book: 졸업 작품 <br/>
 : 얼굴 인식을 기반한 초상권 침해 방지 시스템 <br/>
 
-:round_pushpin: 개발 기간 : 2022.08 ~ 2023.05 10개월 <br/> 
+:round_pushpin: 개발 기간 : 2022.09 ~ 2023.01 (4개월) <br/> 
 :round_pushpin: 플랫폼 : App <br/>
 :round_pushpin: 개발 인원 : 2명 <br/>
 :round_pushpin: 담당 역할 : 얼굴 인식(기여도 80%), 서비스 기획 및 방향성 설정(기여도 90%), 안드로이드(기여도 40%) <br/>
