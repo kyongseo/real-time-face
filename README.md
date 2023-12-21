@@ -30,10 +30,13 @@ Project Overview : 개인 방송 플랫폼의 증가로 인해 실시간 방송�
 <br/>
 
 :round_pushpin: [Architecture] <br/>
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/07878a69-34e1-4563-9e50-d639467a6f89) <br/>
-1️⃣ 라즈베리파이 카메라를 통해 실시간 스트리밍을 한다. <br/>
-2️⃣ 학습자가 이닌 일반인의 얼굴이 감지될 경우 초상권 보호를 위해 모자이크 처리 알고리즘 과정을 거친다. <br/>
-3️⃣ 실시간 스트리밍을 보는 시청자는 실시간으로 일반인의 얼굴이 모자이크 된 영상을 보게 된다. <br/>
+
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/f0c690c0-91e4-4e11-8d75-7a07511654db) <br/>
+<!-- ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/07878a69-34e1-4563-9e50-d639467a6f89) <br/> -->
+1️⃣ 안드로이드에서 학습자 얼굴을 등록한다.
+2️⃣ 라즈베리파이 카메라를 통해 실시간 스트리밍을 한다. <br/>
+3️⃣ 학습자가 이닌 일반인의 얼굴이 감지될 경우 초상권 보호를 위해 모자이크 처리 알고리즘 과정을 거친다. <br/>
+:four: 실시간 스트리밍을 보는 시청자는 실시간으로 일반인의 얼굴이 모자이크 된 영상을 보게 된다. <br/>
 <br/>
 
 ✏️ case1 : 일반인 <br/>
