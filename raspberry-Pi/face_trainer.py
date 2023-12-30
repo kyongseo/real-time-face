@@ -1,5 +1,3 @@
-# 학습자 얼굴 학습 시키기
-
 import cv2
 import numpy as np
 from PIL import Image
