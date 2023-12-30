@@ -69,7 +69,8 @@
 ## 6장. Structure Internal Details 멀티 스트리밍 구조
 내부적으로 모자이크가 진행되는 멀티 스트리밍 구조입니다. <br/>
 Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 각 스트리밍에 고유 아이디를 부여하는 방식을 사용했습니다. <br/>
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/24eac308-c08b-4397-bc2d-764c4c5f857e" width="80%" height="70%"> 
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/24eac308-c08b-4397-bc2d-764c4c5f857e" width="80%" height="70%"> <br/>
+<br/>
 
 ## 7장. AI Training Details
 ### 학습 데이터 셋
@@ -89,6 +90,7 @@ Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 
 <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/7a3a894f-1607-4bb9-874b-7fab42c004ae" width="40%" height="60%">
 <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/cf6b8044-a3a5-43db-942d-c71820ca0986" width="40%" height="60%">
 <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/54fea297-70b7-4e11-8879-b46436ff8c7c" width="40%" height="60%">
+<br/>
 
 ## 8장. More Details...
 MOSAINFO 프로젝트에 대한 더 자세한 설명이 궁금하시다면 다음 유튜브 영상을 참고해주시면 감사하겠습니다 😊
