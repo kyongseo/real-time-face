@@ -3,9 +3,9 @@
 ## 목차 
 1. [1장. About Project ](#1장-About-Project)
 2. [2장. Duration ](#2장-Duration)
-3. [3장. Preview ](#3장.-preview)
-4. [Stacks](#4.-stacks)
-5. [System Structure](#5.-system-structure)
+3. [3장. Preview ](#3장-preview)
+4. [Stacks ](#4장-stacks)
+5. [System Structure](#5장-system-structure)
 6. [Structure Internal Details 멀티 스트리밍 구조](#6.-structure-internal-details-멀티-스트리밍-구조)
 7. [AI Training Details](#7.-ai-training-details)
 8. [More Details...](#8.-more-Details...)
