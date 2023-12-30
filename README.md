@@ -39,6 +39,7 @@
 <br/>
 <br/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/677375d1-0b0d-4ec0-a777-a0390560e518)
 
 ## 4장. Stacks
 ### 백엔드 (BACKEND)
