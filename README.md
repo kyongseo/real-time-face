@@ -1,9 +1,9 @@
 # 졸업작품 - 얼굴 인식을 기반한 초상권 침해 방지 멀티 스트리밍 애플리케이션  <br/>
 
 ## 목차 
-1. [1장. About Project](#1-about-project)
-2. [Duration](#2-duration)
-3. [Preview](#3.-preview)
+1. [1장. About Project ](#1-about-project)
+2. [2장. Duration ](#2-duration)
+3. [3장. Preview ](#3.-preview)
 4. [Stacks](#4.-stacks)
 5. [System Structure](#5.-system-structure)
 6. [Structure Internal Details 멀티 스트리밍 구조](#6.-structure-internal-details-멀티-스트리밍-구조)
