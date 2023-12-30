@@ -49,7 +49,6 @@
 - Android Studio
 - OpenCV
 - NginX
-  <br/>
   
 ### 인공지능 모델 학습 (AI Model Training)
 - Yolov5
@@ -76,13 +75,12 @@ Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 
 ### 학습 데이터 셋
 : 총 약 100장
 - 스트리머 얼굴 데이터
-<br/>
 
 ### 인공지능 모델 학습 결과
 #### 인식률
 - loss: 1% 미만
 - mAP, precision과 recall: 평균 0.95 이상
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/bd5a3028-9aa6-433e-b746-469d45a82a43)
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/bd5a3028-9aa6-433e-b746-469d45a82a43) <br/>
 
 #### Confidence Check & Decision
 - precision과 recall 에 대한 결과 그래프를 통해 백엔드에서 모자이크를 진행할 때 사용되는 객체 인식 confidence를 적정선인 0.6으로 결정하였습니다.  <br/>
@@ -93,5 +91,5 @@ Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 
 <br/>
 
 ## 8장. More Details...
-MOSAINFO 프로젝트에 대한 더 자세한 설명이 궁금하시다면 다음 유튜브 영상을 참고해주시면 감사하겠습니다 😊
+MOSAINFO 프로젝트에 대한 더 자세한 설명이 궁금하시다면 다음 유튜브 영상을 참고해주시면 감사하겠습니다 😊 <br/>
 [YouTube](https://www.youtube.com/watch?v=YUD-Zv0phgY)
