@@ -9,7 +9,7 @@ face_detector = cv2.CascadeClassifier('/home/kyoungseo/FacialRecognitionProject/
 
 face_id = input('\n enter user id ==>  ') # User Id 입력
 
-print("\n [INFO] Initializing face capture. Look the camera and wait ... !!") 
+print("\n [INFO] Initializing face capture. Look the camera and wait ...") 
 
 count = 0
 
