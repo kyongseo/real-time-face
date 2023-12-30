@@ -1,72 +1,90 @@
-# 졸업작품 - 얼굴 인식을 기반한 초상권 침해 방지 시스템 <br/>
+# 졸업작품 - 얼굴 인식을 기반한 초상권 침해 방지 멀티 스트리밍 애플리케이션  <br/>
 
 ## 목차 
-1. [깨끗한 코드](#1.-깨끗한-코드)
+1. [About Project](#1.-About-Project)
+2. [Duration](#2.-Duration)
+3. [Preview](#3.-Preview)
+4. [Stacks](#4.-Stacks)
+5. [System Structure](#5.-System-Structure)
+6. [Structure Internal Details 멀티 스트리밍 구조](#6.-Structure-Internal-Details-멀티-스트리밍-구조)
+7. [AI Training Details](#7.-AI-Training-Details)
+8. [Preview](#3.-Preview)
+9. [Preview](#3.-Preview)
 
-2. ## 1장. 깨끗한 코드
-### 보이스 
 
-
-3. 
-:book: 졸업 작품 <br/>
-: 얼굴 인식을 기반한 초상권 침해 방지 시스템 <br/>
-
-:round_pushpin: 개발 기간 : 2022.09 ~ 2023.01 (4개월) <br/> 
-:round_pushpin: 플랫폼 : App <br/>
-:round_pushpin: 개발 인원 : 2명 <br/>
-:round_pushpin: 담당 역할 : 얼굴 인식(기여도 80%), 서비스 기획 및 방향성 설정(기여도 90%), 안드로이드(기여도 40%) <br/>
-
-[Development environment] <br/>
-:round_pushpin: 언어 : Python 3.6.8, Java 11.0.1 <br/>
-:round_pushpin: DB : FireBase storage <br/>
-:round_pushpin: IDE : Raspberry Pi 3B+, Android Studio <br/>
-
-:round_pushpin: [Description] <br/>
-Project Overview : 개인 방송 플랫폼의 증가로 인해 실시간 방송을 진행하는 과정에서 지나가는 시민들의 얼굴이 무차별적으로 노출이 되어 초상권을 침해하는 일이 빈번하게 발생하고 국민 청원뿐만 아니라 피해 신고 접수 또한 급격히 늘고 있다. 이와 같은 문제를 해결하기 위해 얼굴 인식을 기반한 초상권 침해 방지 시스템을 제작하기로 하였다. <br/>
-
-:round_pushpin: [Algorithm] <br/>
-![image](https://user-images.githubusercontent.com/102573192/210356161-e78fed26-8a45-40cb-9fe3-fac1acb6b48f.png) <br/> 
-![image](https://user-images.githubusercontent.com/102573192/215275548-01bbe2d8-3778-4426-ba26-106ee113a3ea.png) <br/> 
-<br/> 
-
-🤖 AI Training Details
-Confidence Check & Decision
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/c4782724-615a-40af-8207-070246a8f81e)
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/7a3a894f-1607-4bb9-874b-7fab42c004ae)
-precision과 recall 에 대한 결과 그래프를 통해 백엔드에서 모자이크를 진행할 때 사용되는 객체 인식 confidence를 적정선인 0.6으로 결정하였습니다.
-
-1️⃣ 카메라로 실시간 스트리밍을 한다. <br/>
-2️⃣ 이때 학습자는 사전에 haar 알고리즘을 통해 얼굴 등록 과정을 거치고 DB에 저장한다.  <br/>
-3️⃣ 실시간 방송 중 일반인의 얼굴이 감지될 경우 adaboost 알고리즘으로 DB에 저장된 학습자의 얼굴과 비교한다. <br/>
-4️⃣ 비교 기준은 기존 설정한 임계값 미만일 경우 학습자가 아닌 것으로 판단한다. <br/>
-:five: mosaic 처리 알고리즘 기술로 학습자가 아닌 사람은 모자이크 처리를 하여 초상권을 보호한다.<br/>
-
+## 1장. About Project
+### 주기능 
+라이브 스트리밍에서 일반인의 얼굴이 등장하면 인공지능이 감지하여 실시간으로 자동 모자이크를 처리합니다.
 <br/>
 
-:round_pushpin: [Architecture] <br/>
+### 개발 배경
+최근 몇년간 인터넷이 급속도로 발전함에 따라 실시간 스트리밍 방송을 제공하는 플랫폼들 역시 크게 성장했습니다. 이는 양날의 검으로, 그 이면에는 심각한 부작용이 존재합니다. 그중 하나로는 “초상권 침해의 위험성”이 있습니다. 개인 방송 플랫폼의 증가로 인해 실시간 방송을 진행하는 과정에서 지나가는 시민들의 얼굴이 무차별적으로 노출이 되어 초상권을 침해하는 일이 빈번하게 발생하고 국민 청원뿐만 아니라 피해 신고 접수 또한 급격히 늘고 있습니다. 추가적으로 일반 영상에 비해, 실시간 스트리밍은 시청자들에게 영상이 즉시 전달되기 때문에 수습할 시간이 주어지지 않아 그 심각성이 더욱 크다고 생각됩니다.
 
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/f0c690c0-91e4-4e11-8d75-7a07511654db) <br/>
-<!-- ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/07878a69-34e1-4563-9e50-d639467a6f89) <br/> -->
-1️⃣ 안드로이드에서 학습자 얼굴을 등록한다. <br/>
-2️⃣ 라즈베리파이 카메라를 통해 실시간 스트리밍을 한다. <br/>
-3️⃣ 학습자가 이닌 일반인의 얼굴이 감지될 경우 초상권 보호를 위해 모자이크 처리 알고리즘 과정을 거친다. <br/>
-:four: 실시간 스트리밍을 보는 시청자는 실시간으로 일반인의 얼굴이 모자이크 된 영상을 보게 된다. <br/>
+이를 해결하기 위한 방안으로, 실시간으로 얼굴 인식을 기반한 초상권 침해 방지를 위한 멀티 스트리밍 애플리케이션을 개발하게 되었습니다.
 <br/>
 
-✏️ case1 : 일반인 <br/>
+### 개인 정보 모자이크 대상
+모자이크 대상으로는, 다음으로 선정하였습니다.
+- 일반 시민
+<br/>
+
+## 2장. Duration
+2022.09 ~ 2023.03 (7개월)
+<br/>
+
+## 3장. Preview
 ![image](https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png) <br/>
-✅ 학습자가 아닌 일반인으로 인식 될 경우 모자이크 처리를 함으로써 초상권 보호를 할 수 있다. <br/>
-<br/>
 
-✏️ case2 학습자 <br/>
 ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/b7258bad-fec2-42dc-9b71-60d96ce24290) <br/>
-✅ 학습자로 인식 될 경우 학습자 자신의 이름이 나오면서 모자이크 처리를 하지 않는다. <br/>
-<br/>
 
-:round_pushpin: [Result] <br/>
 ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/9ebc3fc3-4106-4c21-b6c0-16da77fb7979) <br/>
 <br/>
 
-✅ 학습자가 아닌 일반인으로 인식 될 경우 모자이크 처리를 함으로써 초상권 보호를 할 수 있다. <br/>
-✅ 학습자로 인식 될 경우 학습자 본인의 이름이 나오면서 모자이크 처리를 하지 않는다.<br/>
-✅ 실시간으로 방송 플랫폼을 시청하는 시청자는 일반인의 초상권이 모자이크 처리 된 영상을 볼 수 있다.<br/>
+## 4장. Stacks
+### 백엔드 (BACKEND)
+- Python 3.6.8
+- Java 11.0.1 <br/>
+- FireBase storage <br/>
+- Raspberry Pi 3B+
+- Android Studio
+- OpenCV
+- NginX
+  <br/>
+  
+### 인공지능 모델 학습 (AI Model Training)
+- Yolov5
+<br/>
+
+## 5장. System Structure
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/f0c690c0-91e4-4e11-8d75-7a07511654db) <br/>
+1️⃣ 스트리머가 카메라로 실시간 스트리밍을 시작합니다. <br/>
+2️⃣ 이때 스트리머는 사전에 OpenCV를 통해 얼굴 등록 과정을 거쳐 DB에 저장합니다.  <br/>
+3️⃣ 백엔드 Flask 서버에서 이를 요청 받습니다.
+4️⃣ Flask 서버 내부에서 Pytorch, OpenCV를 통해 일반 대상을 인식하고 모자이크를 진행합니다.
+5️⃣ 개인정보가 보호된 스트리밍을 Rtmp 서버로 내보냅니다.
+6️⃣ 시청자가 모자이크가 적용된 스트리밍을 앱에서 보게 됩니다.
+<br/>
+
+## 6장. Structure Internal Details 멀티 스트리밍 구조
+내부적으로 모자이크가 진행되는 멀티 스트리밍 구조입니다. Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 각 스트리밍에 고유 아이디를 부여하는 방식을 사용했습니다.
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/dd21129f-f4c4-41ae-b5f1-d09ffbfbe535)
+<br/>
+
+## 7장.  AI Training Details
+### 학습 데이터 셋
+: 총 약 100장
+- 스트리머 얼굴 데이터
+<br/>
+
+### 인공지능 모델 학습 결과
+#### 인식률
+- loss: 1% 미만
+- mAP, precision과 recall: 평균 0.95 이상
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/bd5a3028-9aa6-433e-b746-469d45a82a43)
+
+#### Confidence Check & Decision
+- precision과 recall 에 대한 결과 그래프를 통해 백엔드에서 모자이크를 진행할 때 사용되는 객체 인식 confidence를 적정선인 0.6으로 결정하였습니다.  <br/>
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/c4782724-615a-40af-8207-070246a8f81e)
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/7a3a894f-1607-4bb9-874b-7fab42c004ae)
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/b342a73a-f707-4890-8c4a-821414e982bc)
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/b08fa9c5-9dde-4e20-a800-dc33f9a95cdc)
