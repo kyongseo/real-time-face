@@ -1,7 +1,7 @@
 # 졸업작품 - 얼굴 인식을 기반한 초상권 침해 방지 멀티 스트리밍 애플리케이션  <br/>
 
 ## 목차 
-1. [About Project](#1장.-About-Project)
+1. [1장. About Project](#1-About-Project)
 2. [Duration](#2.-Duration)
 3. [Preview](#3.-Preview)
 4. [Stacks](#4.-Stacks)
@@ -29,7 +29,7 @@
 <br/>
 
 ## 2장. Duration
-2022.09 ~ 2023.03 (7개월)
+- 2022.09 ~ 2023.03 (7개월)
 <br/>
 
 ## 3장. Preview
@@ -59,14 +59,15 @@
 ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/f0c690c0-91e4-4e11-8d75-7a07511654db) <br/>
 1️⃣ 스트리머가 카메라로 실시간 스트리밍을 시작합니다. <br/>
 2️⃣ 이때 스트리머는 사전에 OpenCV를 통해 얼굴 등록 과정을 거쳐 DB에 저장합니다.  <br/>
-3️⃣ 백엔드 Flask 서버에서 이를 요청 받습니다.
-4️⃣ Flask 서버 내부에서 Pytorch, OpenCV를 통해 일반 대상을 인식하고 모자이크를 진행합니다.
-5️⃣ 개인정보가 보호된 스트리밍을 Rtmp 서버로 내보냅니다.
-6️⃣ 시청자가 모자이크가 적용된 스트리밍을 앱에서 보게 됩니다.
+3️⃣ 백엔드 Flask 서버에서 이를 요청 받습니다. <br/>
+4️⃣ Flask 서버 내부에서 Pytorch, OpenCV를 통해 일반 대상을 인식하고 모자이크를 진행합니다. <br/>
+5️⃣ 개인정보가 보호된 스트리밍을 Rtmp 서버로 내보냅니다. <br/>
+6️⃣ 시청자가 모자이크가 적용된 스트리밍을 앱에서 보게 됩니다. <br/>
 <br/>
 
 ## 6장. Structure Internal Details 멀티 스트리밍 구조
-내부적으로 모자이크가 진행되는 멀티 스트리밍 구조입니다. Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 각 스트리밍에 고유 아이디를 부여하는 방식을 사용했습니다.
+내부적으로 모자이크가 진행되는 멀티 스트리밍 구조입니다. <br/>
+Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 각 스트리밍에 고유 아이디를 부여하는 방식을 사용했습니다. <br/>
 ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/dd21129f-f4c4-41ae-b5f1-d09ffbfbe535)
 <br/>
 
