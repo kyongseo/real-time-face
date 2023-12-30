@@ -57,7 +57,8 @@
 <br/>
 
 ## 5장. System Structure
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/f0c690c0-91e4-4e11-8d75-7a07511654db" width="80%" height="70%"> <br/>
+<!-- <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/f0c690c0-91e4-4e11-8d75-7a07511654db" width="80%" height="70%"> <br/> -->
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/b65e9f18-716c-43ea-a69c-88f2208d19b3" width="80%" height="70%"> <br/>
 1️⃣ 스트리머가 카메라로 실시간 스트리밍을 시작합니다. <br/>
 2️⃣ 이때 스트리머는 사전에 OpenCV를 통해 얼굴 등록 과정을 거쳐 DB에 저장합니다.  <br/>
 3️⃣ 백엔드 서버에서 이를 요청 받습니다. <br/>
