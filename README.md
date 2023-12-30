@@ -33,12 +33,12 @@
 <br/>
 
 ## 3장. Preview
-<img src="https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png" width="50%" height="40%"> <br/>
-
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/b7258bad-fec2-42dc-9b71-60d96ce24290" width="70%" height="40%"> <br/>
-
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9ebc3fc3-4106-4c21-b6c0-16da77fb7979" width="50%" height="40%"> <br/>
+<img src="https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png" width="30%" height="10%" align='left'> 
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/b7258bad-fec2-42dc-9b71-60d96ce24290" width="30%" height="100%" align='center'> 
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9ebc3fc3-4106-4c21-b6c0-16da77fb7979" width="30%" height="20%" align='right'> 
 <br/>
+<br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## 4장. Stacks
 ### 백엔드 (BACKEND)
@@ -85,10 +85,10 @@ Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 
 
 #### Confidence Check & Decision
 - precision과 recall 에 대한 결과 그래프를 통해 백엔드에서 모자이크를 진행할 때 사용되는 객체 인식 confidence를 적정선인 0.6으로 결정하였습니다.  <br/>
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/c4782724-615a-40af-8207-070246a8f81e" width="60%" height="60%">
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/7a3a894f-1607-4bb9-874b-7fab42c004ae" width="60%" height="60%">
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/cf6b8044-a3a5-43db-942d-c71820ca0986" width="60%" height="60%">
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/54fea297-70b7-4e11-8879-b46436ff8c7c" width="60%" height="60%">
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/c4782724-615a-40af-8207-070246a8f81e" width="40%" height="60%">
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/7a3a894f-1607-4bb9-874b-7fab42c004ae" width="40%" height="60%">
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/cf6b8044-a3a5-43db-942d-c71820ca0986" width="40%" height="60%">
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/54fea297-70b7-4e11-8879-b46436ff8c7c" width="40%" height="60%">
 
 ## 8장. More Details...
 MOSAINFO 프로젝트에 대한 더 자세한 설명이 궁금하시다면 다음 유튜브 영상을 참고해주시면 감사하겠습니다 😊
