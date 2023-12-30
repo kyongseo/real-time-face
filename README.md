@@ -8,7 +8,7 @@
 5. [System Structure](#5장-system-structure)
 6. [Structure Internal Details 멀티 스트리밍 구조](#6장-structure-internal-details-멀티-스트리밍-구조)
 7. [AI Training Details](#7장-ai-training-details)
-8. [More Details...](#🖥-8장-More-Details)
+8. [More Details...](#8장-More-Details)
 
 
 ## 1장. About Project
