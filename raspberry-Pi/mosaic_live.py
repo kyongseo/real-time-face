@@ -47,7 +47,7 @@ while True:
         
         # 학습자일 경우
         if (confidence < 100):
-            id = names[id] # => " "
+            id = names[id] 
             confidence = "  {0}%".format(round(100 - confidence)) # => " "
             
         # 학습자가 아닐 경우 모자이크 처리    
