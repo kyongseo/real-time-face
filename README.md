@@ -88,3 +88,7 @@
 ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/7a3a894f-1607-4bb9-874b-7fab42c004ae)
 ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/b342a73a-f707-4890-8c4a-821414e982bc)
 ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/b08fa9c5-9dde-4e20-a800-dc33f9a95cdc)
+
+
+## 8장. More Details...
+MOSAINFO 프로젝트에 대한 더 자세한 설명이 궁금하시다면 다음 유튜브 영상을 참고해주시면 감사하겠습니다 😊
