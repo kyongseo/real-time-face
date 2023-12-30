@@ -71,7 +71,7 @@ Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 
 ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/dd21129f-f4c4-41ae-b5f1-d09ffbfbe535)
 <br/>
 
-## 7장.  AI Training Details
+## 7장. AI Training Details
 ### 학습 데이터 셋
 : 총 약 100장
 - 스트리머 얼굴 데이터
