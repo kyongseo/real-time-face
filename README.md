@@ -1,8 +1,8 @@
 # 졸업작품 - 얼굴 인식을 기반한 초상권 침해 방지 멀티 스트리밍 애플리케이션  <br/>
 
 ## 목차 
-1. [1장. About Project](#1-1장.-about-project)
-2. [2장. Duration ](#2장.-duration)
+1. [1장. About Project](#1장.-About-Project)
+2. [2장. Duration ](#2장.-Duration)
 3. [3장. Preview ](#3장.-preview)
 4. [Stacks](#4.-stacks)
 5. [System Structure](#5.-system-structure)
@@ -13,6 +13,7 @@
 
 
 ## 1장. About Project
+
 ### 주기능 
 라이브 스트리밍에서 일반인의 얼굴이 등장하면 인공지능이 감지하여 실시간으로 자동 모자이크를 처리합니다.
 <br/>
