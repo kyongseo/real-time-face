@@ -37,10 +37,16 @@
 ## 3장. Preview
 <!-- <img src="https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png" width="30%" height="10%">  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/b7258bad-fec2-42dc-9b71-60d96ce24290" width="40%" height="200%"> -->
 
-![미디어01](https://github.com/kyounggseo/real-time-face/assets/102573192/702e048b-de90-41d8-851d-4e0131842f3f)
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9e3ede76-d711-40d2-9ac3-268f7cab079a" width="40%" height="20%">
 
-<!-- <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9ebc3fc3-4106-4c21-b6c0-16da77fb7979" width="30%" height="20%" align='right'> -->
+<!-- ![미디어01](https://github.com/kyounggseo/real-time-face/assets/102573192/702e048b-de90-41d8-851d-4e0131842f3f)
+
+ <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9ebc3fc3-4106-4c21-b6c0-16da77fb7979" width="30%" height="20%" align='right'> -->
 <br/>
+
+
+
+
 
 ## 4장. Stacks
 #### 백엔드 (BACKEND)
