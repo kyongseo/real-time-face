@@ -82,7 +82,7 @@
 
 ## 7장. AI Training Details
 #### 학습 데이터 셋
-: 총 약 100장
+: 총 약 100장 X 2배 증폭
 - 스트리머 얼굴 데이터
 <!-- 택배 운송장: 원본 1200장 × 3배 증폭
 차량 번호판: 원본 1107장 × 3배 증폭
@@ -93,14 +93,20 @@
 #### 인식률
 - loss: 1% 미만
 - mAP, precision과 recall: 평균 0.95 이상
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/bd5a3028-9aa6-433e-b746-469d45a82a43) <br/>
+  
+<!-- ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/bd5a3028-9aa6-433e-b746-469d45a82a43)
+![image](https://github.com/kyounggseo/real-time-face/assets/102573192/ffc5857a-9eea-4f60-8694-56739991e5b8)-->
+
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/268d82e7-584d-4606-9791-bfd15c9418d3" width="50%" height="70%"> <br/>
+
 
 #### Confidence Check & Decision
 - precision과 recall 에 대한 결과 그래프를 통해 백엔드에서 모자이크를 진행할 때 사용되는 객체 인식 confidence를 적정선인 0.6으로 결정하였습니다.  <br/>
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/c4782724-615a-40af-8207-070246a8f81e" width="40%" height="60%">
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/7a3a894f-1607-4bb9-874b-7fab42c004ae" width="40%" height="60%">
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/cf6b8044-a3a5-43db-942d-c71820ca0986" width="40%" height="60%">
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/54fea297-70b7-4e11-8879-b46436ff8c7c" width="40%" height="60%">
+
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/fc7c6b30-187f-4fd7-b31d-2d39682d7bd8" width="40%" height="60%">
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/764e36b3-1503-4f08-8ccd-5f467daaf9f6" width="38%" height="60%">
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/764e36b3-1503-4f08-8ccd-5f467daaf9f6" width="38%" height="60%">
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/5b49bdfe-46d2-4334-8cd0-417090d7ac2e" width="40%" height="50%">
 <br/>
 
 ## 8장. More Details...
