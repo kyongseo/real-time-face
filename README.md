@@ -76,7 +76,7 @@
 
 ## 6장. Structure Internal Details 멀티 스트리밍 구조
 - 내부적으로 모자이크가 진행되는 멀티 스트리밍 구조입니다. <br/>
-- Hi-DN은 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 각 스트리밍에 고유 아이디를 부여하는 방식을 사용했습니다. <br/>
+- 여러 명의 사용자가 동시에 스트리밍을 할 수 있도록 각 스트리밍에 고유 아이디를 부여하는 방식을 사용했습니다. <br/>
 <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/24eac308-c08b-4397-bc2d-764c4c5f857e" width="80%" height="70%"> <br/>
 <br/>
 
