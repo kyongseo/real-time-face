@@ -1,5 +1,7 @@
-# MOSAINFO - 얼굴 인식을 기반한 초상권 침해 방지 멀티 스트리밍 애플리케이션  <br/>
-
+# MOSAINFO
+얼굴 인식을 기반한 초상권 침해 방지 멀티 스트리밍 애플리케이션  <br/>
+ <br/>
+ 
 ## 목차 
 1. [About Project ](#1장-About-Project)
 2. [Duration ](#2장-Duration)
@@ -35,18 +37,8 @@
 <br/>
 
 ## 3장. Preview
-<!-- <img src="https://user-images.githubusercontent.com/102573192/210356297-37bff7e5-de71-4aa0-966e-c9e7660e455c.png" width="30%" height="10%">  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/b7258bad-fec2-42dc-9b71-60d96ce24290" width="40%" height="200%"> -->
-
 <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9e3ede76-d711-40d2-9ac3-268f7cab079a" width="40%" height="20%">
-
-<!-- ![미디어01](https://github.com/kyounggseo/real-time-face/assets/102573192/702e048b-de90-41d8-851d-4e0131842f3f)
-
- <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9ebc3fc3-4106-4c21-b6c0-16da77fb7979" width="30%" height="20%" align='right'> -->
 <br/>
-
-
-
-
 
 ## 4장. Stacks
 #### 백엔드 (BACKEND)
@@ -60,12 +52,12 @@
   
 #### 인공지능 모델 학습 (AI Model Training)
 - Yolov5
+- OpenCV
 <br/>
 
 ## 5장. System Structure
-<!-- <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/f0c690c0-91e4-4e11-8d75-7a07511654db" width="80%" height="70%"> <br/> -->
 <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/b65e9f18-716c-43ea-a69c-88f2208d19b3" width="80%" height="70%"> <br/>
-1️⃣ 스트리머가 카메라로 실시간 스트리밍을 시작합니다. <br/>
+1️⃣ 스트리머가 RaspberryPi 카메라로 실시간 스트리밍을 시작합니다. <br/>
 2️⃣ 이때 스트리머는 사전에 OpenCV를 통해 얼굴 등록 과정을 거쳐 DB에 저장합니다.  <br/>
 3️⃣ 백엔드 Flask 서버에서 이를 요청 받습니다. <br/>
 4️⃣ Flask 서버 내부에서 Pytorch, OpenCV를 통해 일반 시민을 인식하고 모자이크를 진행합니다. <br/>
@@ -84,18 +76,11 @@
 #### 학습 데이터 셋
 : 총 약 100장 X 2배 증폭
 - 스트리머 얼굴 데이터
-<!-- 택배 운송장: 원본 1200장 × 3배 증폭
-차량 번호판: 원본 1107장 × 3배 증폭
-신분증: 원본 1141장 × 3배 증폭
-백그라운드 이미지: 전체 데이터 셋의 10% -->
 
 ### 인공지능 모델 학습 결과
 #### 인식률
 - loss: 1% 미만
 - mAP, precision과 recall: 평균 0.95 이상
-  
-<!-- ![image](https://github.com/kyounggseo/real-time-face/assets/102573192/bd5a3028-9aa6-433e-b746-469d45a82a43)
-![image](https://github.com/kyounggseo/real-time-face/assets/102573192/ffc5857a-9eea-4f60-8694-56739991e5b8)-->
 
 <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/268d82e7-584d-4606-9791-bfd15c9418d3" width="50%" height="70%"> <br/>
 
@@ -110,5 +95,6 @@
 <br/>
 
 ## 8장. More Details...
-- MOSAINFO 프로젝트에 대한 더 자세한 설명이 궁금하시다면 다음 유튜브 영상을 참고해주시면 감사하겠습니다 😊 <br/>
+- MOSAINFO 프로젝트에 대한 더 자세한 설명이 궁금하시다면!? <br/>
+    다음 유튜브 영상을 참고해주시면 감사하겠습니다 😊 <br/>
 [YouTube](https://www.youtube.com/watch?v=YUD-Zv0phgY)
