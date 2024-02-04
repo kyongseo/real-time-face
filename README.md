@@ -38,10 +38,11 @@
 
 ## 3장. Preview
 - 일반 시민의 얼굴이 인식된 경우 <br/>
-  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9e3ede76-d711-40d2-9ac3-268f7cab079a" width="40%" height="20%"> <br/>
+  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9e3ede76-d711-40d2-9ac3-268f7cab079a" width="40%" height="20%"> 
   <br/>
+
 - 초상권이 노출되는 물건일 경우 <br/>
-  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/702d89ab-e5ce-43cb-978b-65b5b5126f70" width="40%" height="20%"> <br/>
+  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/f8d5535b-d497-4a6a-b23b-da164f072ce2" width="40%" height="20%"> <br/>
 
 <br/>
 
