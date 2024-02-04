@@ -37,7 +37,11 @@
 <br/>
 
 ## 3장. Preview
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9e3ede76-d711-40d2-9ac3-268f7cab079a" width="40%" height="20%">
+- 일반 시민의 얼굴이 인식된 경우
+  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9e3ede76-d711-40d2-9ac3-268f7cab079a" width="40%" height="20%">
+- 초상권이 노출되는 주민등록일 경우
+  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/702d89ab-e5ce-43cb-978b-65b5b5126f70" width="40%" height="20%">
+
 <br/>
 
 ## 4장. Stacks
