@@ -100,10 +100,11 @@
 <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/5b49bdfe-46d2-4334-8cd0-417090d7ac2e" width="40%" height="50%">
 <br/>
 
+<!--
 ## 8장. More Details...
 - MOSAINFO 프로젝트에 대한 더 자세한 설명이 궁금하시다면!? <br/>
     다음 유튜브 영상을 참고해주시면 감사하겠습니다 😊 <br/>
-[YouTube](https://www.youtube.com/watch?v=YUD-Zv0phgY)
+ [YouTube](https://www.youtube.com/watch?v=YUD-Zv0phgY) -->
 
 ## 알게된 점 
   - Nginx 서버를 활용한 멀티 스트리밍 구조를 배울 	수 있었습니다.
