@@ -38,11 +38,11 @@
 
 ## 3장. Preview
 - 일반 시민의 얼굴이 인식된 경우 <br/>
-  <!-- <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9e3ede76-d711-40d2-9ac3-268f7cab079a" width="40%" height="20%"> -->
-  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/403c66c5-8b7a-4f3c-86fd-4b4b247d7dbf" width="40%" height="20%"> <br/>
+  <!-- <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/9e3ede76-d711-40d2-9ac3-268f7cab079a" width="40%" height="20%"> 
+  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/403c66c5-8b7a-4f3c-86fd-4b4b247d7dbf" width="40%" height="20%"> <br/>-->
 
 - 신분증인 경우 <br/>
-  <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/f8d5535b-d497-4a6a-b23b-da164f072ce2" width="40%" height="20%"> <br/>
+  <!-- <img src="https://github.com/kyounggseo/real-time-face/assets/102573192/f8d5535b-d497-4a6a-b23b-da164f072ce2" width="40%" height="20%"> <br/> -->
 
 <br/>
 
@@ -62,7 +62,7 @@
 <br/>
 
 ## 5장. System Structure
-<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/b65e9f18-716c-43ea-a69c-88f2208d19b3" width="80%" height="70%"> <br/>
+<img src="https://github.com/kyounggseo/real-time-face/assets/102573192/b65e9f18-716c-43ea-a69c-88f2208d19b3" width="80%" height="70%"> <br/> 
 1️⃣ 스트리머가 RaspberryPi 카메라로 실시간 스트리밍을 시작합니다. <br/>
 2️⃣ 이때 스트리머는 사전에 OpenCV를 통해 얼굴 등록 과정을 거쳐 DB에 저장합니다.  <br/>
 3️⃣ 백엔드 Flask 서버에서 이를 요청 받습니다. <br/>
